@@ -1,0 +1,8 @@
+# Configuration for git attributes
+*.yml linguist-detectable=false
+*.ts linguist-detectable
+
+go.sum linguist-generated
+Cargo.lock linguist-generated
+docs/*.html linguist-vendored
+*.woff2 binary
